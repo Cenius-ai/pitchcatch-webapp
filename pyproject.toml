@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pitchcatch"
+version = "0.1.0"
+description = "Bullpen pitch log: pitch mix notation grid, strike-zone heat tally by count, session volume tracker."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+pitchcatch = "pitchcatch:main"
+
+[tool.setuptools]
+py-modules = ["pitchcatch"]

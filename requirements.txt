@@ -1,0 +1,7 @@
+# Pitchcatch has no third-party dependencies.
+# Every import resolves from the Python standard library, so this file is
+# intentionally empty of requirements: nothing to install, nothing to pin.
+#
+# The test suite runs with the standard library too:
+#   python3 -m unittest discover -s tests
+# (pytest runs the same tests if it is already installed: python3 -m pytest)

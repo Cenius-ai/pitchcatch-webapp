@@ -1,0 +1,17 @@
+# Byte-compiled / packaging output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Local stores and recovered backup files
+.pitchcatch/
+*.bad
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
